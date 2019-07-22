@@ -1,0 +1,25 @@
+//for easy testing ..please install rest client in VS Code .
+
+GET http://localhost:3000/
+
+###
+POST http://localhost:3000/users/user
+Content-Type: application/json
+
+{"firstname":"Prasobh","lastname":"kollattu","age":33}
+
+###
+
+GET http://localhost:3000/users/
+
+###
+
+DELETE http://localhost:3000/users/5d3588b347fbc32078f17d5f
+
+
+###
+
+PUT http://localhost:3000/users/
+Content-Type: application/json
+
+{"id":"5d3588b347fbc32078f17d60","firstname":"Prasobh","lastname":"kollattu sudhakaran","age":33}
